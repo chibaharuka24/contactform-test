@@ -1,0 +1,39 @@
+.text {
+    color: #8C7B6B;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.text::after {
+    content: 'Thank you';
+    font-family: HiraMinProN-W3;
+    position: absolute;
+    letter-spacing: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    color: rgba(209, 201, 173, 0.3);
+    z-index: -1;
+    white-space: nowrap;
+}
+
+.home {
+    width: 50px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.home-button {
+    width: 50px;
+    background-color: #8C7B6B;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}

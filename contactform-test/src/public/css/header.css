@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.header__inner {
+    padding: 10px;
+    text-align: center;
+}
+
+.header__logo {
+    font-size: 40px;
+    font-family: HiraMinProN-W3;
+    color: #8B7A6A;
+    
+}
+

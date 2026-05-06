@@ -1,0 +1,49 @@
+h1 {
+    font-size: 30px;
+    font-family: HiraMinProN-W3;
+    color: #8B7A6A;
+    text-align: center;
+}
+
+.confirm-form {
+    width: 80%;
+}
+
+.contact-table {
+    margin: auto;
+    border: 1px solid #F4F4F3;
+    width: 100%;
+}
+
+.item {
+    color: #FFFFFF;
+    background-color: #BAA99A;
+    padding: 10px 20px;
+}
+
+.confirm {
+    color: #BAA99A;
+    padding: 10px 20px;
+}
+
+.button-group {
+    display: flex;
+}
+
+.button,.correction {
+    border: none;
+    width: 100px;
+}
+
+.button-submit {
+    width: 100px;
+    background-color: #83756A;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    color: #83756A;
+}
